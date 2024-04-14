@@ -3,6 +3,7 @@ import {useEffect} from 'react';
 import theme from "./styles/theme";
 import Navbar from "./components/Navbar";
 import Banner from './components/Banner';
+import FeaturedCategories from './components/Categories';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     >
       <Navbar />
       <Banner />
+      <FeaturedCategories />
     </Container>
     </ThemeProvider>
     
