@@ -4,6 +4,8 @@ import theme from "./styles/theme";
 import Navbar from "./components/Navbar";
 import Banner from './components/Banner';
 import FeaturedCategories from './components/Categories';
+import Testimonials from './components/Testimonials';
+import ContactForm from './components/ContactForm';
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
       <Navbar />
       <Banner />
       <FeaturedCategories />
+      <Testimonials />
+      <ContactForm />
     </Container>
     </ThemeProvider>
     
