@@ -23,7 +23,7 @@ const categories = [
 const FeaturedCategories = () => {
   return (
     <Box marginTop={8} marginLeft={4} marginRight={4}> 
-      <Typography variant="h5" align="center" marginBottom={3} gutterBottom style={{ fontFamily: 'Raleway',  }}>
+      <Typography variant="h5" align="center" marginBottom={3} gutterBottom style={{ fontFamily: 'Raleway'}}>
         FEATURED CATEGORIES
       </Typography>
 
