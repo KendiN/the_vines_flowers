@@ -12,7 +12,10 @@ export const NavbarContainer = styled(Box)(() => ({
 }));
 
 //Logo
-
+export const LogoImage = styled('img')(({src}) => ({
+    src: 'url(${src})',
+    width: '500px',
+}));
 
 ///List
 interface MyListProps extends ListProps {
