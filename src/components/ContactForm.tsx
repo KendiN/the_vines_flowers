@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Box, TextField, Button } from '@mui/material';
+import { Typography, Box, TextField, Button, Container } from '@mui/material';
 
 const ContactForm = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -7,11 +7,11 @@ const ContactForm = () => {
   };
 
   return (
-    <Box marginTop={6} marginLeft={4} marginRight={4}>
-      <Typography variant="h5" align="center" gutterBottom>
+    <Container maxWidth="sm" style={{ marginTop: '6rem', textAlign: 'center' }}>
+      <Typography variant="h5" style={{ fontFamily: 'Raleway'}} gutterBottom>
         Questions?
       </Typography>
-      <Typography variant="body1" align="center" gutterBottom>
+      <Typography variant="body1" style={{ fontFamily: 'Raleway'}} gutterBottom>
         We'd love to hear from you!
       </Typography>
       <form onSubmit={handleSubmit}>
@@ -45,18 +45,19 @@ const ContactForm = () => {
             required
           />
         </Box>
-        <Box marginTop={2}>
+        <Box marginTop={2} style={{ textAlign: 'center' }}>
           <Button
             type="submit"
             variant="contained"
             color="primary"
             fullWidth
+            style={{ borderRadius: 20, width:"30px" }}
           >
             Submit
           </Button>
         </Box>
       </form>
-    </Box>
+    </Container>
   );
 };
 
