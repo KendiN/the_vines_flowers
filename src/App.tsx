@@ -6,6 +6,7 @@ import Banner from './components/Banner';
 import FeaturedCategories from './components/Categories';
 import Testimonials from './components/Testimonials';
 import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <Testimonials />
       <ContactForm />
     </Container>
+    <Footer />
     </ThemeProvider>
     
   );

@@ -37,7 +37,7 @@ const Testimonials = () => {
           <Typography variant="subtitle1" style={{ fontSize: '14px' }}>{testimonials[3].name}</Typography>
         </Grid>
       </Grid>
-      <Divider style={{ backgroundColor: '#DE1A78', marginBottom: '20px' }} /> {/* Colored line */}
+      <Divider style={{ backgroundColor: '#DE1A78', marginBottom: '20px', marginTop: "20px" }} /> {/* Colored line */}
     </Box>
   );
 };
